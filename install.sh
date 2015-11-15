@@ -1,13 +1,21 @@
-# Starting with symlinks
-ln -sfv ~/.dotfiles/system/.aliases ~
-ln -sfv ~/.dotfiles/system/.zshrc ~
-ln -sfv ~/.dotfiles/system/.vimrc ~
+#!/usr/bin/env zsh
 
-# Git symlinks and default config
+### Zsh
+
+ln -sfv ~/.dotfiles/zsh/.aliases ~
+ln -sfv ~/.dotfiles/zsh/.zshrc ~
+ln -sfv ~/.dotfiles/zsh/.zshenv ~
+
+### Vim
+
+ln -sfv ~/.dotfiles/vim/.vimrc ~
+
+### Git
+
 ln -sfv ~/.dotfiles/git/.gitconfig ~
-ln -sfv ~/.dotfiles/git/.gitignore_global ~
-git config --global core.excludesfile ~/.gitignore_global
+ln -sfv ~/.dotfiles/git/.gitignore ~
+git config --global core.excludesfile ~/.gitignore
 
-# Finally, set zsh as default shell
+### Default Shell
+
 chsh -s $(which zsh)
-

@@ -2,10 +2,11 @@
 
 Meant to be used on a fresh installation of OS X. Use this at your own risk :)
 
-## Pre-install
+## Pre-install (Update System, Install Command Line Tools and Homebrew)
 
     sudo softwareupdate -i -a
     xcode-select --install
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ## Installation
 

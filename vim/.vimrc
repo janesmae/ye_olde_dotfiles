@@ -1,5 +1,4 @@
 set nocompatible
-set number
 set backspace=indent,eol,start
 set showcmd
 set visualbell
