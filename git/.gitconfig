@@ -3,10 +3,6 @@
     name = "Jaan Janesmae"
     email = "jaan@janesmae.com"
 
-[branch "master"]
-    remote = origin
-    merge = refs/heads/master
-
 [color]
     branch = always
     diff = always
@@ -53,6 +49,9 @@
     # other
     s = status
     a  = add
+
+[push]
+    default = simple
 
 [url "git@github.com:"]
     insteadof = github:
