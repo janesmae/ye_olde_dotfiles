@@ -1,0 +1,7 @@
+# JetBrains IDEs
+
+*.iml
+
+## JetBrains Directory
+.idea/
+.idea_modules/
