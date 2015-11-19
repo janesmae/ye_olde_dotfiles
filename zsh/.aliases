@@ -1,15 +1,23 @@
 ### Navigation
+
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 ### List files
+
 alias ls="command ls -lhHFG"
 
 ### Fix grep
+
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 
+### DNS
+
+alias dns_flush="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;say cache flushed" 
+
 ### http://xkcd.com/530/
+
 alias mute="osascript -e 'set volume output muted true'"
