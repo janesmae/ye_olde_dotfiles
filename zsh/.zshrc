@@ -9,7 +9,7 @@ export LSCOLORS="Gxfxcxdxbxegedabagacad"
 zstyle ':completion:*' menu select yes
 zstyle ':completion:*:default' list-colors ''
 zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'r:|[._-]=** r:|=**'
-zstyle ':completion:*:descriptions' format "$fg_bold[black]» %d$reset_color"
+zstyle ':completion:*:descriptions' format "$fg_bold[white]» %d$reset_color"
 zstyle ':completion:*' group-name ''
 
 ### Completion
@@ -81,7 +81,7 @@ git_prompt_info () {
     echo "${ref#refs/heads/}"
 }
 
-PROMPT=$'\n%{$fg_bold[cyan]%}%n%{$reset_color%} in %{$fg_bold[green]%}%~%{$reset_color%}\n› '
+PROMPT=$'\n%{$fg_bold[cyan]%}%n%{$reset_color%} at %{$fg_bold[red]%}%m%{$reset_color%} in %{$fg_bold[green]%}%~%{$reset_color%}\n› '
 
 function title() {
     a=${(V)1//\%/\%\%}
