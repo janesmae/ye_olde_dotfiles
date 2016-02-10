@@ -19,3 +19,8 @@ git config --global core.excludesfile ~/.gitignore
 ### Default Shell
 
 chsh -s $(which zsh)
+
+### Execute scripts 
+
+source ~/.dotfiles/bin/.osx
+source ~/.dotfiles/bin/.brew

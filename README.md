@@ -11,9 +11,8 @@ Meant to be used on a fresh installation of OS X. Use this at your own risk :)
 ## Installation
 
     git clone git://github.com/janesmae/dotfiles ~/.dotfiles
-    source ~/.dotfiles/bin/.osx
     source ~/.dotfiles/install.sh
-    
+
 ## update
 
     source ~/.dotfiles/update.sh

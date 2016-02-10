@@ -6,3 +6,8 @@ cd ~/.dotfiles
 git reset --hard HEAD
 git pull
 cd ~
+
+### Execute scripts
+
+source ~/.dotfiles/bin/.osx
+source ~/.dotfiles/bin/.brew
