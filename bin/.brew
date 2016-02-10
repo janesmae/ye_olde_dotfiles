@@ -17,6 +17,7 @@ brew install dark-mode
 brew install git
 brew install git-lfs
 brew install p7zip
+brew install homebrew/php/php56 --with-gmp
 
 ### Cleanup
 
